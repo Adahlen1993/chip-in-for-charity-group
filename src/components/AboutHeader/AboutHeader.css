@@ -1,0 +1,26 @@
+.about-header {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+}
+
+.about-header h1 {
+  margin: 0;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-header p {
+  margin: 5px 0 0;
+  color: #000000;
+  text-align: center;
+  /* padding: 20px; */
+}
+
+.header-image {
+  width: 200px; /* Set width to 200px */
+  height: auto; /* Maintain aspect ratio */
+}

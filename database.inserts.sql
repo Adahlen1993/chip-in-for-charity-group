@@ -1,0 +1,270 @@
+-- for restrictions table
+INSERT INTO "restrictions" ("name") VALUES
+('Holidays or during tournaments'),
+('Men’s/Women’s days - Monday'),
+('Men’s/Women’s days - Tuesday'),
+('Men’s/Women’s days - Wednesday'),
+('Men’s/Women’s days - Thursday'),
+('During tournaments'),
+('Friday or Saturday'),
+('Saturday or Sunday'),
+('Use weekdays only (Monday - Thursday)'),
+('Use after 2:00 pm'),
+('Saturday'),
+('Use after 1:00 pm');
+
+-- for discounts table
+INSERT INTO "discounts" ("name") VALUES
+('One free 9-hole round of golf'),
+('50% discount on one 9-hole round of golf'),
+('50% discount on one 18-hole round of golf'),
+('50% discount on either one 9-hole round of golf or one 18-hole round of golf'),
+('18-hole at 9-hole rate'),
+('$10 off regular green fee');
+
+
+-- Inserts for golf_courses_discounts table
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (1, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (2, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (3, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (4, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (5, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (6, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (7, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (8, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (9, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (10, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (11, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (12, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (13, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (14, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (15, 5);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (16, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (17, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (18, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (19, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (20, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (21, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (22, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (23, 5);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (24, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (25, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (26, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (27, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (28, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (29, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (30, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (31, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (32, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (33, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (34, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (35, 5);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (36, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (37, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (38, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (39, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (40, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (41, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (42, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (43, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (44, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (45, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (46, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (47, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (48, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (49, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (50, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (51, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (52, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (53, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (54, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (55, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (56, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (57, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (58, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (59, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (60, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (61, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (62, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (63, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (64, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (65, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (66, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (67, 5);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (68, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (69, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (70, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (71, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (72, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (73, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (74, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (75, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (76, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (77, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (78, 6);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (79, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (80, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (81, 3);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (82, 2);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (83, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (84, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (85, 1);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (86, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (87, 4);
+INSERT INTO golf_courses_discounts (golf_course_id, discount_id) VALUES (88, 1);
+
+-- Inserts for golf_courses_restrictions table
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (1, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (3, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (4, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (4, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (4, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (5, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (5, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (5, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (6, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (7, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (7, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (7, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (8, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (8, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (9, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (9, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (9, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (10, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (11, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (12, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (12, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (13, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (13, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (13, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (14, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (14, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (14, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (15, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (15, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (15, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (17, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (17, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (17, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (18, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (20, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (20, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (20, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (21, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (22, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (23, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (24, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (24, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (25, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (26, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (27, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (28, 9);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (29, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (29, 12);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (30, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (30, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (30, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (31, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (31, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (31, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (31, 8);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (32, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (32, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (32, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (33, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (33, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (33, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (34, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (34, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (34, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (35, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (35, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (35, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (36, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (36, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (36, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (37, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (38, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (39, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (40, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (41, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (41, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (42, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (42, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (42, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (43, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (44, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (45, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (45, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (46, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (47, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (48, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (49, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (49, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (49, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (50, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (51, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (52, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (53, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (53, 9);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (54, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (55, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (56, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (58, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (59, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (59, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (59, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (60, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (60, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (60, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (61, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (61, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (61, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (62, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (63, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (64, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (65, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (66, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (66, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (66, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (68, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (69, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (69, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (69, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (70, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (72, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (73, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (73, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (74, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (74, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (74, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (75, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (75, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (76, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (76, 10);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (77, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (77, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (78, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (78, 7);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (78, 8);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (79, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (79, 5);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (79, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (80, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (81, 2);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (81, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (81, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (81, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (83, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (84, 3);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (84, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (85, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (86, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (86, 4);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (86, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (87, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (87, 6);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (87, 9);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (88, 1);
+INSERT INTO golf_courses_restrictions (golf_course_id, restriction_id) VALUES (88, 6);

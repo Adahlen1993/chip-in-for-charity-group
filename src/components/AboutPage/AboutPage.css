@@ -1,0 +1,138 @@
+.container {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+  color: #073363;
+}
+
+.section {
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 10px;
+  /* background-color: #f9f9f9; */
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  /* xs screens */
+  .section {
+    padding: 0px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /* sm screens */
+  .section {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* md screens */
+  .section {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* lg screens */
+  .section {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* xl screens */
+  .section {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 16px;
+  }
+}
+
+.donation-section {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.donation-section h2 {
+  margin-bottom: 2px;
+}
+
+.donation-section p {
+  margin-bottom: 1px;
+  font-size: 16px;
+}
+
+.donation-section a {
+  font-size: 16px;
+  color: #073363;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.donation-section a:hover {
+  text-decoration: underline;
+}

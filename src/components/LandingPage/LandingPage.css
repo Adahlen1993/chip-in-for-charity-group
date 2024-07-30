@@ -1,0 +1,15 @@
+.leaflet-map {
+    height: 500px; /* Set the height to a smaller value */
+    width: 100%;
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Optional: add border radius for better look */
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  

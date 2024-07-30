@@ -1,0 +1,7 @@
+.hamburger-menu-content {
+  width: auto; /* Width of the drawer */
+  height: auto; /* Auto height */
+  max-height: 70vh; /* Control the height to avoid full-screen */
+  display: flex;
+  flex-direction: column;
+}

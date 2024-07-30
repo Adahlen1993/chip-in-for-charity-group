@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: #073363;
+  font-family: 'Trebuchet MS', Roboto, Arial, sans-serif;
+}
